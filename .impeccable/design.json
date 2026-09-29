@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T00:00:00Z",
+  "title": "Design System: Court availability",
+  "extensions": {
+    "colorMeta": {
+      "ground": { "role": "neutral", "displayName": "Ticket-Stock Ground", "canonical": "#eef1f5", "tonalRamp": ["oklch(15% 0.006 255)", "oklch(25% 0.006 255)", "oklch(35% 0.006 255)", "oklch(48% 0.006 255)", "oklch(60% 0.006 255)", "oklch(72% 0.006 255)", "oklch(85% 0.006 255)", "oklch(95.6% 0.006 255)"] },
+      "stock": { "role": "neutral", "displayName": "Card Stock", "canonical": "#f8fafc", "tonalRamp": ["oklch(15% 0.003 248)", "oklch(25% 0.003 248)", "oklch(35% 0.003 248)", "oklch(48% 0.003 248)", "oklch(60% 0.003 248)", "oklch(72% 0.003 248)", "oklch(88% 0.003 248)", "oklch(98.4% 0.003 248)"] },
+      "ink": { "role": "neutral", "displayName": "Box-Office Navy", "canonical": "#14213d", "tonalRamp": ["oklch(15% 0.05 265)", "oklch(24.5% 0.06 265)", "oklch(35% 0.06 265)", "oklch(45% 0.05 265)", "oklch(55% 0.045 265)", "oklch(68% 0.035 265)", "oklch(82% 0.02 265)", "oklch(95% 0.008 265)"] },
+      "ink-2": { "role": "neutral", "displayName": "Slate Ink", "canonical": "#47526b", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.035 265)", "oklch(35% 0.04 265)", "oklch(45% 0.04 265)", "oklch(55% 0.035 265)", "oklch(68% 0.03 265)", "oklch(82% 0.02 265)", "oklch(95% 0.008 265)"] },
+      "ink-3": { "role": "neutral", "displayName": "Muted Slate", "canonical": "#525b70", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.03 265)", "oklch(35% 0.035 265)", "oklch(48.5% 0.035 265)", "oklch(58% 0.03 265)", "oklch(70% 0.025 265)", "oklch(83% 0.015 265)", "oklch(95% 0.006 265)"] },
+      "ink-mist": { "role": "neutral", "displayName": "Mist on Navy", "canonical": "#c9d1e2", "tonalRamp": ["oklch(15% 0.02 265)", "oklch(25% 0.02 265)", "oklch(35% 0.02 265)", "oklch(48% 0.02 265)", "oklch(60% 0.02 265)", "oklch(72% 0.02 265)", "oklch(85.5% 0.02 265)", "oklch(95% 0.008 265)"] },
+      "rule": { "role": "neutral", "displayName": "Rule Grey", "canonical": "#d3d9e2", "tonalRamp": ["oklch(15% 0.013 258)", "oklch(25% 0.013 258)", "oklch(35% 0.013 258)", "oklch(48% 0.013 258)", "oklch(60% 0.013 258)", "oklch(72% 0.013 258)", "oklch(88.5% 0.013 258)", "oklch(96% 0.006 258)"] },
+      "open": { "role": "primary", "displayName": "Optic Yellow", "canonical": "#d4f531", "tonalRamp": ["oklch(22% 0.06 120)", "oklch(35% 0.1 120)", "oklch(48% 0.13 120)", "oklch(60% 0.16 120)", "oklch(72% 0.18 120)", "oklch(82% 0.2 120)", "oklch(91.5% 0.2 120)", "oklch(96% 0.1 120)"] },
+      "open-hover": { "role": "primary", "displayName": "Optic Yellow Pressed", "canonical": "#c3e61c", "tonalRamp": ["oklch(22% 0.06 120)", "oklch(35% 0.1 120)", "oklch(48% 0.13 120)", "oklch(60% 0.16 120)", "oklch(72% 0.18 120)", "oklch(87.5% 0.2 120)", "oklch(92% 0.17 120)", "oklch(96% 0.1 120)"] },
+      "open-edge": { "role": "primary", "displayName": "Optic Yellow Edge", "canonical": "#a9c90f", "tonalRamp": ["oklch(22% 0.06 120)", "oklch(35% 0.1 120)", "oklch(48% 0.13 120)", "oklch(60% 0.15 120)", "oklch(70% 0.17 120)", "oklch(79% 0.18 120)", "oklch(89% 0.16 120)", "oklch(96% 0.08 120)"] },
+      "sold": { "role": "neutral", "displayName": "Sold Grey", "canonical": "#dde1e8", "tonalRamp": ["oklch(15% 0.01 262)", "oklch(25% 0.01 262)", "oklch(35% 0.01 262)", "oklch(48% 0.01 262)", "oklch(60% 0.01 262)", "oklch(72% 0.01 262)", "oklch(90.5% 0.01 262)", "oklch(96% 0.005 262)"] },
+      "sold-hatch": { "role": "neutral", "displayName": "Sold Hatch", "canonical": "#c9cfd9", "tonalRamp": ["oklch(15% 0.015 262)", "oklch(25% 0.015 262)", "oklch(35% 0.015 262)", "oklch(48% 0.015 262)", "oklch(60% 0.015 262)", "oklch(72% 0.015 262)", "oklch(85.5% 0.015 262)", "oklch(95% 0.006 262)"] },
+      "sold-ink": { "role": "neutral", "displayName": "Sold Ink", "canonical": "#535d72", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.03 265)", "oklch(35% 0.035 265)", "oklch(49% 0.035 265)", "oklch(58% 0.03 265)", "oklch(70% 0.025 265)", "oklch(83% 0.015 265)", "oklch(95% 0.006 265)"] },
+      "block": { "role": "neutral", "displayName": "Hold Lavender", "canonical": "#e5e1f0", "tonalRamp": ["oklch(15% 0.03 295)", "oklch(25% 0.04 295)", "oklch(35% 0.05 295)", "oklch(48% 0.05 295)", "oklch(60% 0.04 295)", "oklch(72% 0.03 295)", "oklch(91% 0.02 295)", "oklch(96% 0.01 295)"] },
+      "block-ink": { "role": "neutral", "displayName": "Hold Ink", "canonical": "#3b3563", "tonalRamp": ["oklch(15% 0.05 290)", "oklch(25% 0.07 290)", "oklch(34% 0.08 290)", "oklch(45% 0.07 290)", "oklch(56% 0.06 290)", "oklch(68% 0.05 290)", "oklch(82% 0.03 290)", "oklch(95% 0.01 290)"] },
+      "move": { "role": "secondary", "displayName": "Ticket Vermilion", "canonical": "#ff5a36", "tonalRamp": ["oklch(22% 0.08 35)", "oklch(32% 0.12 35)", "oklch(44% 0.16 35)", "oklch(55% 0.19 35)", "oklch(67% 0.21 35)", "oklch(76% 0.16 35)", "oklch(86% 0.09 35)", "oklch(95% 0.03 35)"] },
+      "offpeak": { "role": "neutral", "displayName": "Off-Peak Field", "canonical": "#d5dded", "tonalRamp": ["oklch(15% 0.025 265)", "oklch(25% 0.03 265)", "oklch(35% 0.035 265)", "oklch(48% 0.035 265)", "oklch(60% 0.03 265)", "oklch(72% 0.03 265)", "oklch(89.5% 0.025 265)", "oklch(96% 0.01 265)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page title only. 1.75rem on mobile, 2.75rem at 768px, width 78%." },
+      "numeral": { "displayName": "Numeral", "purpose": "Court numbers in the sticky header (1.75rem to 2.25rem); the same condensed voice sets date chip numbers and hour numbers." },
+      "title": { "displayName": "Title", "purpose": "Stub headlines, dialog titles, the selected day line." },
+      "body": { "displayName": "Body", "purpose": "Default text, tabular numerals on." },
+      "body-small": { "displayName": "Body small", "purpose": "Meta lines, hints, rail list rows, in slate ink." },
+      "label": { "displayName": "Label", "purpose": "Uppercase tracked labels: day names, day-part names, rail section heads, Now tag, From/To." },
+      "seat-label": { "displayName": "Seat label", "purpose": "OPEN, TAKEN, MOVE HERE inside seats; 0.75rem and width 85% at 768px." }
+    },
+    "shadows": [
+      { "name": "shadow-lift", "value": "0 14px 28px -10px rgb(20 33 61 / 0.45), 0 3px 8px -2px rgb(20 33 61 / 0.25)", "purpose": "Confirm dialog." },
+      { "name": "shadow-low", "value": "0 1px 2px rgb(20 33 61 / 0.12)", "purpose": "Small floating tags such as the drag ghost destination." },
+      { "name": "lifted-ticket", "value": "drop-shadow(0 10px 12px rgb(20 33 61 / 0.35)) drop-shadow(0 2px 3px rgb(20 33 61 / 0.25))", "purpose": "filter on a lifted ticket's cell so the notched mask casts a true silhouette." },
+      { "name": "sheet", "value": "drop-shadow(0 12px 16px rgb(20 33 61 / 0.3)) drop-shadow(0 2px 4px rgb(20 33 61 / 0.2))", "purpose": "filter on the mobile booking sheet." },
+      { "name": "pressed-edge", "value": "inset 0 -4px 0 #a9c90f", "purpose": "Open seats (3px on primary buttons and yellow swatches)." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The only easing curve; all transitions and keyframes." },
+      { "name": "state", "value": "140ms to 180ms", "purpose": "Hover and press transitions on buttons, seats, chips, list rows." },
+      { "name": "ticket-lift", "value": "220ms", "purpose": "Ticket transform when lifted." },
+      { "name": "pop", "value": "260ms", "purpose": "Dialog entrance: from translateY(10px) scale(0.98), opacity 0." },
+      { "name": "rise", "value": "300ms", "purpose": "Mobile sheet stub entrance: from translateY(16px), opacity 0." },
+      { "name": "reseat", "value": "620ms", "purpose": "Landed ticket settles from a tilted lift with a fading vermilion ring." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "All animation and transition durations under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "xs-max", "value": "479px" },
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Booking action. Optic yellow with a pressed lower edge.",
+      "html": "<button class=\"ds-btn-primary\">Book 2 to 3 PM</button>",
+      "css": ".ds-btn-primary { min-height: 44px; padding: 0 18px; border: 0; border-radius: 10px; background: var(--open, #d4f531); box-shadow: inset 0 -3px 0 var(--open-edge, #a9c90f); color: var(--ink, #14213d); font: 750 0.9375rem/1.2 Archivo, system-ui, sans-serif; cursor: pointer; transition: background-color 140ms cubic-bezier(0.16,1,0.3,1), transform 140ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary:hover { background: var(--open-hover, #c3e61c); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Move Button",
+      "kind": "button",
+      "refersTo": "button-move",
+      "description": "Confirms a reseat. Vermilion, only inside the move sequence.",
+      "html": "<button class=\"ds-btn-move\">Move booking</button>",
+      "css": ".ds-btn-move { min-height: 44px; padding: 0 18px; border: 0; border-radius: 10px; background: var(--move, #ff5a36); color: var(--ink, #14213d); font: 750 0.9375rem/1.2 Archivo, system-ui, sans-serif; cursor: pointer; transition: background-color 140ms cubic-bezier(0.16,1,0.3,1), transform 140ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-move:hover { background: #f24a25; } .ds-btn-move:active { transform: translateY(1px); } .ds-btn-move:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Cancel and secondary actions. Outline only.",
+      "html": "<button class=\"ds-btn-quiet\">Cancel</button>",
+      "css": ".ds-btn-quiet { min-height: 44px; padding: 0 18px; border: 0; border-radius: 10px; background: none; box-shadow: inset 0 0 0 1px var(--rule, #d3d9e2); color: var(--ink, #14213d); font: 650 0.9375rem/1.2 Archivo, system-ui, sans-serif; cursor: pointer; transition: transform 140ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-quiet:hover { box-shadow: inset 0 0 0 1px var(--ink-3, #525b70); } .ds-btn-quiet:active { transform: translateY(1px); } .ds-btn-quiet:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Role Switch",
+      "kind": "nav",
+      "refersTo": "role-switch",
+      "description": "Player or staff preview; navy marks the checked segment.",
+      "html": "<div class=\"ds-role\" role=\"radiogroup\"><span class=\"ds-role-label\">Preview as</span><button class=\"ds-role-btn\" role=\"radio\" aria-checked=\"true\">Player</button><button class=\"ds-role-btn\" role=\"radio\" aria-checked=\"false\">Staff</button></div>",
+      "css": ".ds-role { display: inline-flex; align-items: center; padding: 3px; background: var(--stock, #f8fafc); border: 1px solid var(--rule, #d3d9e2); border-radius: 999px; font-family: Archivo, system-ui, sans-serif; } .ds-role-label { padding: 0 8px 0 10px; font-size: 0.75rem; color: var(--ink-3, #525b70); } .ds-role-btn { min-height: 36px; padding: 0 16px; border: 0; border-radius: 999px; background: none; font: 650 0.875rem Archivo, system-ui, sans-serif; color: var(--ink-2, #47526b); cursor: pointer; transition: background-color 160ms cubic-bezier(0.16,1,0.3,1), color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-role-btn[aria-checked=\"true\"] { background: var(--ink, #14213d); color: var(--stock, #f8fafc); } .ds-role-btn:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Date Chip",
+      "kind": "chip",
+      "refersTo": "date-chip",
+      "description": "Date strip entry with an open count underlined in optic yellow; navy when active.",
+      "html": "<div style=\"display:flex;gap:8px\"><button class=\"ds-day ds-day-active\"><span class=\"ds-day-name\">Today</span><span class=\"ds-day-num\">29</span><span class=\"ds-day-open\">19 open</span></button><button class=\"ds-day\"><span class=\"ds-day-name\">Wed</span><span class=\"ds-day-num\">30</span><span class=\"ds-day-open\">50 open</span></button></div>",
+      "css": ".ds-day { display: flex; flex-direction: column; align-items: center; min-width: 68px; padding: 13px 8px 9px; background: var(--stock, #f8fafc); border: 1px solid var(--rule, #d3d9e2); border-radius: 12px; color: var(--ink, #14213d); font-family: Archivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; cursor: pointer; transition: border-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-day:hover { border-color: var(--ink-3, #525b70); } .ds-day:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; } .ds-day-name { font-size: 0.6875rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2, #47526b); } .ds-day-num { font-size: 1.5rem; line-height: 1.15; font-weight: 800; font-stretch: 80%; } .ds-day-open { margin-top: 2px; padding: 0 3px; font-size: 0.6875rem; font-weight: 700; box-shadow: inset 0 -5px 0 var(--open, #d4f531); } .ds-day-active { background: var(--ink, #14213d); border-color: var(--ink, #14213d); color: var(--stock, #f8fafc); } .ds-day-active .ds-day-name { color: #c9d1e2; } .ds-day-active .ds-day-open { color: var(--open, #d4f531); box-shadow: none; }"
+    },
+    {
+      "name": "Seat States",
+      "kind": "custom",
+      "refersTo": "seat-open",
+      "description": "The seat silhouette in its open, picked, taken, and hold states.",
+      "html": "<div class=\"ds-seats\"><button class=\"ds-seat ds-seat-open\">Open</button><button class=\"ds-seat ds-seat-picked\">Open</button><div class=\"ds-seat ds-seat-sold\"><span>Taken</span></div><div class=\"ds-seat ds-seat-block\">Hold</div></div>",
+      "css": ".ds-seats { display: grid; grid-template-columns: repeat(4, 110px); gap: 6px; } .ds-seat { display: grid; place-items: center; height: 50px; border: 0; border-radius: 10px 10px 5px 5px; font: 700 0.75rem Archivo, system-ui, sans-serif; font-stretch: 85%; letter-spacing: 0.04em; text-transform: uppercase; } .ds-seat-open { background: var(--open, #d4f531); box-shadow: inset 0 -4px 0 var(--open-edge, #a9c90f); color: var(--ink, #14213d); cursor: pointer; transition: transform 180ms cubic-bezier(0.16,1,0.3,1), background-color 160ms cubic-bezier(0.16,1,0.3,1); } .ds-seat-open:hover { background: var(--open-hover, #c3e61c); transform: translateY(-1px); } .ds-seat-open:active { transform: translateY(1px); } .ds-seat:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; } .ds-seat-picked { background: var(--ink, #14213d); box-shadow: inset 0 0 0 3px var(--open, #d4f531); color: var(--open, #d4f531); } .ds-seat-sold { background: repeating-linear-gradient(135deg, var(--sold, #dde1e8) 0 6px, var(--sold-hatch, #c9cfd9) 6px 8px); color: var(--sold-ink, #535d72); } .ds-seat-sold span { padding: 1px 3px; border-radius: 3px; background: var(--sold, #dde1e8); } .ds-seat-block { background: repeating-linear-gradient(45deg, transparent 0 7px, rgb(59 53 99 / 0.14) 7px 8px), repeating-linear-gradient(-45deg, transparent 0 7px, rgb(59 53 99 / 0.14) 7px 8px), var(--block, #e5e1f0); color: var(--block-ink, #3b3563); }"
+    },
+    {
+      "name": "Ticket Stub",
+      "kind": "custom",
+      "refersTo": "ticket",
+      "description": "A staff-view booking: notched sides, dashed perforation. Lifted state turns vermilion and tilts.",
+      "html": "<div style=\"display:flex;gap:16px;padding:12px\"><button class=\"ds-ticket\"><span class=\"ds-ticket-name\">Bea Ocampo</span></button><button class=\"ds-ticket ds-ticket-lifted\"><span class=\"ds-ticket-name\">Jamie Dela Cruz</span></button></div>",
+      "css": ".ds-ticket { display: flex; align-items: center; width: 150px; height: 50px; padding: 0 8px 0 15px; border: 0; border-radius: 6px; text-align: left; color: var(--ink, #14213d); background: linear-gradient(var(--ink-3, #525b70) 50%, transparent 0) 9px 0 / 1px 5px repeat-y, var(--stock, #f8fafc); box-shadow: inset 0 0 0 1px var(--rule, #d3d9e2); cursor: grab; transition: transform 220ms cubic-bezier(0.16,1,0.3,1); -webkit-mask: radial-gradient(circle 5px at 0 50%, #0000 97%, #000 100%) left / 51% 100% no-repeat, radial-gradient(circle 5px at 100% 50%, #0000 97%, #000 100%) right / 51% 100% no-repeat; mask: radial-gradient(circle 5px at 0 50%, #0000 97%, #000 100%) left / 51% 100% no-repeat, radial-gradient(circle 5px at 100% 50%, #0000 97%, #000 100%) right / 51% 100% no-repeat; } .ds-ticket:hover { box-shadow: inset 0 0 0 1px var(--ink-3, #525b70); } .ds-ticket:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; } .ds-ticket-name { font: 650 0.8125rem Archivo, system-ui, sans-serif; font-stretch: 85%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-ticket-lifted { transform: translateY(-5px) rotate(-2.5deg); background: linear-gradient(var(--move, #ff5a36) 50%, transparent 0) 9px 0 / 1px 5px repeat-y, var(--stock, #f8fafc); box-shadow: inset 0 0 0 2px var(--move, #ff5a36); }"
+    },
+    {
+      "name": "Rail Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Stock panel on the ground with a section head and next-open rows.",
+      "html": "<section class=\"ds-panel\"><h3 class=\"ds-panel-head\">Next open</h3><button class=\"ds-next\"><span class=\"ds-next-time\">1 to 2 PM</span><span class=\"ds-next-court\">Court 2</span><span class=\"ds-next-tag\">Off-peak</span></button></section>",
+      "css": ".ds-panel { width: 300px; padding: 16px; background: var(--stock, #f8fafc); border: 1px solid var(--rule, #d3d9e2); border-radius: 14px; font-family: Archivo, system-ui, sans-serif; color: var(--ink, #14213d); } .ds-panel-head { margin: 0 0 10px; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2, #47526b); } .ds-next { display: grid; grid-template-columns: 84px 1fr auto; align-items: center; gap: 8px; width: 100%; min-height: 40px; padding: 0 10px; border: 0; border-radius: 8px; background: none; text-align: left; font: 400 0.875rem Archivo, system-ui, sans-serif; color: inherit; cursor: pointer; transition: background-color 140ms cubic-bezier(0.16,1,0.3,1); } .ds-next:hover { background: var(--ground, #eef1f5); } .ds-next:focus-visible { outline: 3px solid var(--ink, #14213d); outline-offset: 2px; } .ds-next-time { font-weight: 750; } .ds-next-court { color: var(--ink-2, #47526b); } .ds-next-tag { padding: 0 7px; border: 1px solid var(--ink, #14213d); border-radius: 999px; font-size: 0.6875rem; font-weight: 650; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Box Office Seat Map",
+    "overview": "The day is a seat map. Courts run across, hours run down, and every court-hour is a seat. Open seats are the brightest thing in the house: optic yellow on a cool, quiet ticket-stock field. Taken seats recede into grey hatching. Bookings, in the staff view, are ticket stubs with perforations and notched sides that can be lifted, carried, and reseated. The system exists so a player can find the yellow at a glance and a staff member can move a booking without leaving the board.\n\nDensity is high but calm. Six columns of seats, grouped into day-part bands, fill the viewport below a date strip and a sticky court header. Every number is tabular, every label is short, and color does the sorting work so type can stay small. The palette is deliberately light only: players read it on phones in daylight and staff read it under gym lights, so there is no dark theme.\n\nThe world refuses the white spreadsheet with green cells. Nothing here is a table row; every slot is a physical seat or stub with its own silhouette.",
+    "keyCharacteristics": [
+      "Cool blue-grey ground, navy ink, one loud optic yellow for open seats and booking actions.",
+      "One vermilion accent, held back for the lift, drop, confirm, and reseat sequence only.",
+      "Seats with a taller top radius and a pressed lower edge; tickets with a dashed perforation line and notched sides.",
+      "Archivo variable, condensed via the width axis for numerals and seat labels; tabular numerals everywhere.",
+      "Day-part bands (morning, midday, evening, night) with off-peak expressed as a tinted band field.",
+      "A live navy now-line across the map; ended hours fold away."
+    ],
+    "rules": [
+      { "name": "The Brightest Seat Rule", "body": "Optic yellow is the loudest thing on a cool, quiet field, and it is used only for open seats and booking actions. If yellow appears on anything that is not bookable or a booking action (or the underline marking an open count), it is wrong.", "section": "colors" },
+      { "name": "The Reserved Vermilion Rule", "body": "Vermilion is held back entirely for the lift, drop, confirm, and reseat sequence. It never appears at rest, in the player view, or as decoration. There is no other accent.", "section": "colors" },
+      { "name": "The Field Not Mark Rule", "body": "Off-peak is a tinted band field (weekdays before 4 PM), never a stripe, border, or badge on individual seats. Peak hours carry no label at all; peak is the default.", "section": "colors" },
+      { "name": "The Tabular Everything Rule", "body": "All numerals are tabular (set on body). Times, counts, and court numbers must align column to column.", "section": "typography" },
+      { "name": "The Width Axis Rule", "body": "Condense with the wdth axis (75% to 90%) rather than switching families or shrinking size. Numerals and seat labels are condensed; reading text is not.", "section": "typography" },
+      { "name": "The Lift Means Moving Rule", "body": "A shadow means the object is in hand or floating above the board. Nothing resting on the board casts one.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep optic yellow for open seats and booking actions only, and keep it the loudest thing on screen.",
+      "Do keep vermilion for the lift, drop, confirm, and reseat sequence, and nothing else.",
+      "Do express off-peak as a tinted band field for weekdays before 4 PM.",
+      "Do fold ended hours behind a \"Show earlier hours\" toggle rather than showing a wall of past seats.",
+      "Do condense numerals and seat labels with the wdth axis and keep all numerals tabular.",
+      "Do draw taken and hold states with hatch patterns so they read without color alone.",
+      "Do tint every shadow with navy (rgb 20 33 61) and reserve shadows for objects in hand or floating.",
+      "Do use the 3px navy focus outline with a 2px offset on every interactive element.",
+      "Do honor reduced motion; the lift, pop, rise, and reseat animations collapse to instant."
+    ],
+    "donts": [
+      "Don't ship a dark theme; the world is light only by design.",
+      "Don't add a second accent color, or use vermilion outside the move sequence.",
+      "Don't mark off-peak with a stripe or per-seat badge, and don't label peak hours.",
+      "Don't render the schedule as a white table with green cells.",
+      "Don't put kicker or eyebrow labels above headings.",
+      "Don't add shadows to resting panels, seats, or chips."
+    ]
+  }
+}

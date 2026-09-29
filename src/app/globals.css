@@ -1,0 +1,111 @@
+/* Light only by design: players read this outdoors in daylight, staff under gym lights. */
+:root {
+  --ground: #eef1f5;
+  --stock: #f8fafc;
+  --ink: #14213d;
+  --ink-2: #47526b;
+  --ink-3: #525b70;
+  --rule: #d3d9e2;
+
+  --open: #d4f531;
+  --open-hover: #c3e61c;
+  --open-edge: #a9c90f;
+  --sold: #dde1e8;
+  --sold-hatch: #c9cfd9;
+  --sold-ink: #535d72;
+  --block: #e5e1f0;
+  --block-ink: #3b3563;
+
+  --move: #ff5a36;
+  --offpeak: #d5dded;
+
+  --shadow-lift: 0 14px 28px -10px rgb(20 33 61 / 0.45), 0 3px 8px -2px rgb(20 33 61 / 0.25);
+  --shadow-low: 0 1px 2px rgb(20 33 61 / 0.12);
+
+  --font: var(--font-archivo), system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  color-scheme: light;
+  accent-color: var(--ink);
+  caret-color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--ink-3) var(--ground);
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: var(--open);
+  color: var(--ink);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 10px;
+  border: 2px solid var(--ground);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-3);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -34,6 +34,9 @@ Confirmed for v1:
 - Player accounts: sign in, view booking history, cancel and reschedule.
 - Admin schedule: manage courts, hours, and blocks; view bookings.
 
+Time rules:
+- Off-peak: Monday to Friday, slots starting before 4 PM facility local time. Everything else, including all of Saturday and Sunday, is peak. Only off-peak is labeled; there is no "peak" label. The label is informational and implies no price difference in v1.
+
 Not in v1 (do not design or imply them):
 - Online payment.
 - Memberships, pricing tiers, passes.
