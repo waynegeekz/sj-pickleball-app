@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "check": "node src/lib/schedule.check.ts"
+    "check": "node src/lib/schedule.check.ts && node src/lib/reserve.check.ts"
   },
   "dependencies": {
     "next": "16.3.6",

@@ -31,6 +31,7 @@ Simpler and faster than general-purpose booking platforms (CourtReserve, PlayTim
 ## Capabilities and Constraints
 
 Confirmed for v1:
+- Public guest reserve page at /reserve: date, then court, then up to 5 consecutive hours, guest name/phone/email, GCash screenshot. Rates: 300/hour off-peak, 400/hour otherwise. Holds last 20 minutes; staff cancel on the backend; 5 bookings per phone per day.
 - Player accounts: sign in, view booking history, cancel and reschedule.
 - Admin schedule: manage courts, hours, and blocks; view bookings.
 
@@ -38,7 +39,7 @@ Time rules:
 - Off-peak: Monday to Friday, slots starting before 4 PM facility local time. Everything else, including all of Saturday and Sunday, is peak. Only off-peak is labeled; there is no "peak" label. The label is informational and implies no price difference in v1.
 
 Not in v1 (do not design or imply them):
-- Online payment.
+- Online payment processing. (Guests pay by GCash QR outside the app and upload a screenshot as proof; staff verify it.)
 - Memberships, pricing tiers, passes.
 - Multiple facilities, marketplace search, leagues, matchmaking, ratings.
 
